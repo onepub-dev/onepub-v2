@@ -1,4 +1,4 @@
-include: package:lints/recommended.yaml
+# include: package:lint_hard/all.yaml
 
 analyzer:
   errors:
@@ -6,34 +6,40 @@ analyzer:
     unused_local_variable: error
     dead_code: error
     todo: ignore
+
   exclude:
-   - lib/src/third_party/**
+    - lib/src/third_party
+
+
 
 linter:
   rules:
-    - avoid_catching_errors
-    - avoid_print
-    - avoid_private_typedef_functions
-    - avoid_redundant_argument_values
-    - avoid_returning_null_for_future
-    - avoid_unused_constructor_parameters
-    - avoid_void_async
-    - cancel_subscriptions
-    - directives_ordering
-    - missing_whitespace_between_adjacent_strings
-    - no_adjacent_strings_in_list
-    - no_runtimeType_toString
-    - only_throw_errors
-    - package_api_docs
-    - prefer_asserts_in_initializer_lists
-    - prefer_const_declarations
-    - prefer_relative_imports
-    - prefer_single_quotes
-    - sort_pub_dependencies
-    - test_types_in_equals
-    - throw_in_finally
-    - unawaited_futures
-    - unnecessary_lambdas
-    - unnecessary_null_aware_assignments
-    - unnecessary_parenthesis
-    - unnecessary_statements
+    avoid_catching_errors: true
+    avoid_print: true
+    avoid_private_typedef_functions: true
+    avoid_redundant_argument_values: true
+    avoid_returning_null_for_future: true
+    avoid_unused_constructor_parameters: true
+    avoid_void_async: true
+    cancel_subscriptions: true
+    directives_ordering: false  ## changed by onepub
+    missing_whitespace_between_adjacent_strings: true
+    no_adjacent_strings_in_list: true
+    no_runtimeType_toString: true
+    only_throw_errors: true
+    package_api_docs: true
+    prefer_asserts_in_initializer_lists: true
+    prefer_const_declarations: true
+    prefer_relative_imports: true
+    prefer_single_quotes: true
+    sort_pub_dependencies: true
+    test_types_in_equals: true
+    throw_in_finally: true
+    unawaited_futures: true
+    unnecessary_lambdas: true
+    unnecessary_null_aware_assignments: true
+    unnecessary_parenthesis: true
+    unnecessary_statements: true
+    use_super_parameters: false
+    
+
