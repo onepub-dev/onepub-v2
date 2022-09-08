@@ -4,7 +4,7 @@
 
 import 'dart:async';
 
-import 'package:pub/src/utils.dart';
+import 'package:onepub/src/utils.dart';
 import 'package:test/test.dart';
 
 void main() {

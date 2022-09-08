@@ -4,7 +4,7 @@
 
 import 'dart:io';
 
-import 'package:pub/src/ignore.dart';
+import 'package:onepub/src/ignore.dart';
 import 'package:test/test.dart';
 
 void main() {

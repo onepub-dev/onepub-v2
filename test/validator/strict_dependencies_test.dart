@@ -3,8 +3,8 @@
 // BSD-style license that can be found in the LICENSE file.
 
 import 'package:path/path.dart' as path;
-import 'package:pub/src/validator.dart';
-import 'package:pub/src/validator/strict_dependencies.dart';
+import 'package:onepub/src/validator.dart';
+import 'package:onepub/src/validator/strict_dependencies.dart';
 import 'package:test/test.dart';
 
 import '../descriptor.dart' as d;

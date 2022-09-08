@@ -6,10 +6,10 @@ import 'dart:async';
 import 'dart:io';
 
 import 'package:path/path.dart' as p;
-import 'package:pub/src/lock_file.dart';
-import 'package:pub/src/pubspec.dart';
-import 'package:pub/src/source/hosted.dart';
-import 'package:pub/src/system_cache.dart';
+import 'package:onepub/src/lock_file.dart';
+import 'package:onepub/src/pubspec.dart';
+import 'package:onepub/src/source/hosted.dart';
+import 'package:onepub/src/system_cache.dart';
 import 'package:test/test.dart';
 
 import 'descriptor.dart' as d;

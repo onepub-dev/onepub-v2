@@ -4,7 +4,7 @@
 
 import 'dart:convert';
 
-import 'package:pub/src/exit_codes.dart' as exit_codes;
+import 'package:onepub/src/exit_codes.dart' as exit_codes;
 import 'package:shelf/shelf.dart' as shelf;
 import 'package:test/test.dart';
 import 'package:test_descriptor/test_descriptor.dart' as td;

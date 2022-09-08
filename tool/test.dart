@@ -13,8 +13,8 @@
 import 'dart:io';
 import 'package:path/path.dart' as path;
 
-import 'package:pub/src/dart.dart';
-import 'package:pub/src/exceptions.dart';
+import 'package:onepub/src/dart.dart';
+import 'package:onepub/src/exceptions.dart';
 
 Future<void> main(List<String> args) async {
   if (Platform.environment['FLUTTER_ROOT'] != null) {

@@ -3,9 +3,9 @@
 import 'dart:io';
 
 import 'package:dcli/dcli.dart';
-import 'package:pub/src/onepub/api/api.dart';
-import 'package:pub/src/onepub/settings.dart';
-import 'package:pub/src/onepub/util/one_pub_token_store.dart';
+import 'package:onepub/src/onepub/api/api.dart';
+import 'package:onepub/src/onepub/settings.dart';
+import 'package:onepub/src/onepub/util/one_pub_token_store.dart';
 
 import '../../../test/src/test_settings.dart';
 

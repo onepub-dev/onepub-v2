@@ -4,10 +4,10 @@
 
 import 'dart:io';
 
-import 'package:pub/src/pubspec.dart';
-import 'package:pub/src/sdk.dart';
-import 'package:pub/src/source/hosted.dart';
-import 'package:pub/src/system_cache.dart';
+import 'package:onepub/src/pubspec.dart';
+import 'package:onepub/src/sdk.dart';
+import 'package:onepub/src/source/hosted.dart';
+import 'package:onepub/src/system_cache.dart';
 import 'package:pub_semver/pub_semver.dart';
 import 'package:test/test.dart';
 

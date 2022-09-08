@@ -4,7 +4,7 @@
 
 import 'package:path/path.dart' as p;
 
-import 'package:pub/src/io.dart';
+import 'package:onepub/src/io.dart';
 import 'package:test/test.dart';
 
 import '../../descriptor.dart' as d;

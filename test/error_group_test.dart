@@ -4,7 +4,7 @@
 
 import 'dart:async';
 
-import 'package:pub/src/error_group.dart';
+import 'package:onepub/src/error_group.dart';
 import 'package:test/test.dart';
 
 late ErrorGroup errorGroup;

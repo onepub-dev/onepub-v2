@@ -6,7 +6,7 @@
 import 'dart:async';
 
 import 'package:dcli/dcli.dart';
-import 'package:onepub/src/onepub_settings.dart';
+import 'package:onepub/src/onepub/settings.dart';
 import 'package:settings_yaml/settings_yaml.dart';
 
 class TestSettings {

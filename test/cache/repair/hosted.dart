@@ -4,7 +4,7 @@
 
 import 'dart:io';
 
-import 'package:pub/src/exit_codes.dart' as exit_codes;
+import 'package:onepub/src/exit_codes.dart' as exit_codes;
 import 'package:test/test.dart';
 
 import '../../descriptor.dart' as d;

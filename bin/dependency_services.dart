@@ -11,11 +11,11 @@ import 'dart:async';
 
 import 'package:args/args.dart';
 import 'package:args/command_runner.dart';
-import 'package:pub/src/command.dart';
-import 'package:pub/src/command/dependency_services.dart';
-import 'package:pub/src/exit_codes.dart' as exit_codes;
-import 'package:pub/src/io.dart';
-import 'package:pub/src/log.dart' as log;
+import 'package:onepub/src/command.dart';
+import 'package:onepub/src/command/dependency_services.dart';
+import 'package:onepub/src/exit_codes.dart' as exit_codes;
+import 'package:onepub/src/io.dart';
+import 'package:onepub/src/log.dart' as log;
 
 class _DependencyServicesCommandRunner extends CommandRunner<int>
     implements PubTopLevel {

@@ -5,7 +5,7 @@
 import 'dart:async';
 
 import 'package:path/path.dart' as path;
-import 'package:pub/src/git.dart' as git;
+import 'package:onepub/src/git.dart' as git;
 import 'package:test_descriptor/test_descriptor.dart';
 
 /// Describes a Git repository and its contents.

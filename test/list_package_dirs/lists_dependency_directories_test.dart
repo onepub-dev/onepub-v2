@@ -3,7 +3,7 @@
 // BSD-style license that can be found in the LICENSE file.
 
 import 'package:path/path.dart' as path;
-import 'package:pub/src/io.dart';
+import 'package:onepub/src/io.dart';
 
 import 'package:test/test.dart';
 

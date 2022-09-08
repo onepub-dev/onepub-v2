@@ -8,10 +8,10 @@ import 'dart:io';
 
 import 'package:args/args.dart';
 import 'package:args/command_runner.dart';
-import 'package:pub/pub.dart';
-import 'package:pub/src/command.dart';
-import 'package:pub/src/exit_codes.dart' as exit_codes;
-import 'package:pub/src/log.dart' as log;
+import 'package:onepub/pub.dart';
+import 'package:onepub/src/command.dart';
+import 'package:onepub/src/exit_codes.dart' as exit_codes;
+import 'package:onepub/src/log.dart' as log;
 import 'package:usage/usage.dart';
 
 final Analytics loggingAnalytics = _LoggingAnalytics();

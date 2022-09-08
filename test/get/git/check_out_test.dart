@@ -5,7 +5,7 @@
 import 'dart:io';
 
 import 'package:path/path.dart' as p;
-import 'package:pub/src/io.dart';
+import 'package:onepub/src/io.dart';
 import 'package:shelf/shelf.dart' as shelf;
 import 'package:shelf/shelf_io.dart' as shelf_io;
 import 'package:test/test.dart';

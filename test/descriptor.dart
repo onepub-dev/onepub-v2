@@ -7,8 +7,8 @@ import 'dart:convert';
 
 import 'package:oauth2/oauth2.dart' as oauth2;
 import 'package:path/path.dart' as p;
-import 'package:pub/src/language_version.dart';
-import 'package:pub/src/package_config.dart';
+import 'package:onepub/src/language_version.dart';
+import 'package:onepub/src/package_config.dart';
 import 'package:test_descriptor/test_descriptor.dart';
 
 import 'descriptor/git.dart';

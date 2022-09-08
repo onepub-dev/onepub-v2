@@ -12,9 +12,9 @@ import 'dart:io';
 
 import 'package:http/http.dart' as http;
 import 'package:pool/pool.dart';
-import 'package:pub/src/http.dart';
-import 'package:pub/src/io.dart';
-import 'package:pub/src/log.dart' as log;
+import 'package:onepub/src/http.dart';
+import 'package:onepub/src/io.dart';
+import 'package:onepub/src/log.dart' as log;
 
 const statusFilename = 'extract_all_pub_status.json';
 
